@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   View,
   Text,
@@ -19,7 +20,8 @@ export default function HomeScreen({ navigation }) {
           <View style={styles.separator} />
           <TouchableOpacity
             style={styles.card}
-            onPress={() => navigation.navigate('Emergencia')}>
+            onPress={() => navigation.navigate('Emergency')} // Ajustado para 'Emergency'
+          >
             <View style={styles.cardHeader}>
               <Text style={styles.cardTitle}>Isadora Martins</Text>
               <Text style={styles.cardDate}>01 / 01 / 2000</Text>

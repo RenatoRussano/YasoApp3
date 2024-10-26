@@ -109,7 +109,10 @@ const LoginScreen = ({ navigation }) => {
         </View>
       </View>
       <TouchableOpacity onPress={handleEmergency} style={styles.emergencyButton}>
-        <Image source={require('../../assets/images/Emergency.png')} style={styles.emergencyIcon} />
+        <Image
+          source={require('../../assets/images/Emergency.png')}
+          style={styles.emergencyIcon}
+        />
         <Text style={styles.emergencyText}>Yaso Saúde</Text>
       </TouchableOpacity>
     </View>
